@@ -1,0 +1,42 @@
+[
+    {
+      "version": 1,
+      "credentials": {
+        "accessKey": "alfhan",
+        "secretKey": "alfhan123",
+        "expiration": "0001-01-01T00:00:00Z",
+        "status": "enabled",
+        "policy": "alfhan-baru-readwrite"
+      }
+    },
+    {
+      "version": 1,
+      "credentials": {
+        "accessKey": "fian",
+        "secretKey": "alfian123",
+        "expiration": "0001-01-01T00:00:00Z",
+        "status": "enabled",
+        "policy": "bismillah-readwrite"
+      }
+    },
+    {
+      "version": 1,
+      "credentials": {
+        "accessKey": "kefas",
+        "secretKey": "kefas1234",
+        "expiration": "0001-01-01T00:00:00Z",
+        "status": "enabled",
+        "policy": "testing-readonly"
+      }
+    },
+    {
+      "version": 1,
+      "credentials": {
+        "accessKey": "test1",
+        "secretKey": "kocak123",
+        "expiration": "0001-01-01T00:00:00Z",
+        "status": "enabled",
+        "policy": "readwrite-test"
+      }
+    }
+  ]

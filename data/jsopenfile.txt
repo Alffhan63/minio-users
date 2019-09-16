@@ -1,0 +1,14 @@
+$(document).ready(function() {
+        $.getJSON("../data/user1.json",function(data){
+            var user=''
+            $.each(data, function(key, value){
+                user += '<tr>';
+                user += '<td>'+ value.accessKey+'</td>';
+                user += '<td>'+ value.secretKey+'</td>';
+                user += '<td>'+ value.status+'</td>';
+                user += '<td>'+ value.policy+'</td>';
+                user += '</tr>';
+            });
+        $('#minio-user').append(user);
+        });
+    });

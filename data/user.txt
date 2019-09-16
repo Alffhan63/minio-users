@@ -1,0 +1,26 @@
+[
+    {"credentials":
+    {"accessKey":"test1",
+        "secretKey":"kocak123",
+        "expiration":"0001-01-01T00:00:00Z",
+        "status":"enabled",
+        "policy":"readwrite-test"
+        }
+    },
+    { "credentials":
+        {"accessKey":"alfhan",
+            "secretKey":"alfhan123",
+            "expiration":"0001-01-01T00:00:00Z",
+            "status":"enabled",
+            "policy":"alfhan-baru-readwrite"
+        }
+    },
+    { "credentials":
+        {"accessKey":"fian",
+            "secretKey":"alfian123",
+            "expiration":"0001-01-01T00:00:00Z",
+            "status":"enabled",
+            "policy":"bismillah-readwrite"
+        }
+    }
+]
